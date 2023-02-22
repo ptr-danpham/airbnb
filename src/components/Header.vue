@@ -33,7 +33,7 @@
                 </div>
             </b-container>
         </div>
-        <div class="bottom-nav-wrap border-bottom mb-2">
+        <div class="bottom-nav-wrap border-bottom mb-2" v-if="$route.name == 'listing'">
             <b-container>
                 <div class="list-category py-3">
                     <b-row>

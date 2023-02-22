@@ -1,7 +1,17 @@
 
 html, body {
     font-family: 'Circular Std';
+    font-weight: 100;
 }
 main {
     min-height: 100vh;
 }
+
+.mw-25 {
+    min-width: 25%;
+}
+
+.bg-gray {
+    background-color: rgb(247, 247, 247);
+}
+

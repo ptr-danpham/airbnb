@@ -1,0 +1,22 @@
+.detail {
+  .images {
+    height: 300px;
+    .show-all-photos {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+    .img-wrap img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .sub-image .img-wrap{
+        padding-left: 8px;
+    }
+    .sub-image .img-wrap:last-child{
+        padding-top: 8px;
+    }
+  }
+}
