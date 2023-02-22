@@ -1,0 +1,53 @@
+.listing {
+  min-height: 80vh;
+  .card {
+    border: unset;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-text {
+    font-weight: 100;
+  }
+  .thumbnail {
+    border-radius: 15px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .like-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    outline: #fff;
+  }
+  .slick-dots {
+    bottom: 10px;
+  }
+  .slick-dots li button:before {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .slick-dots li.slick-active button:before {
+    color: #fff;
+  }
+  .slick-prev {
+    left: 15px;
+    z-index: 2;
+  }
+  .slick-next {
+    right: 15px;
+    z-index: 2;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 30px;
+  }
+  .images .slick-arrow {
+    visibility: hidden;
+    transition: all 0.1s;
+  }
+  .images:hover .slick-arrow {
+    visibility: visible;
+  }
+}

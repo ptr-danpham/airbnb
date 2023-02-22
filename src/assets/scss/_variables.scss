@@ -1,0 +1,12 @@
+:root {
+    --color-primary : #000;
+    --color-secondary : #717171;
+    --pink-color : #FF385C;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+.text-secondary {
+    color: var(--color-secondary);
+}
